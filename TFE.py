@@ -131,6 +131,6 @@ if __name__ == '__main__' :
     tweets_folder = config_params['tweets_folder']
     tweets_folder_abs = project_folder + tweets_folder
 
-    stream = TFEStreamer(c1,c2,c3,c4,tweets_folder_abs,max_errors)
+    stream = TFEStream(c1,c2,c3,c4,tweets_folder_abs,max_errors)
     stream.statuses.filter(track=query)
 

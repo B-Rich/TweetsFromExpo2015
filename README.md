@@ -1,2 +1,3 @@
 # TweetsFromExpo2015
-Simple tweets stream listener
+Simple tweets stream listener.
+
