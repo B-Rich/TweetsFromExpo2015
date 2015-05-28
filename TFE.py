@@ -135,6 +135,8 @@ if __name__ == '__main__' :
         stream = TFEStream(c1,c2,c3,c4,tweets_folder_abs,max_errors)
         try :
             stream.statuses.filter(track=query)
+        except KeyboardInterrupt :
+            exit(0)
         except Exception :
             continue
 
